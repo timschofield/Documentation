@@ -1,4 +1,5 @@
 <ul>
+	<li><h1>General</h1></li>
 	<li>Entirely web-based</li>
 	<li>Runs on any web-server that can accommodate PHP - can use an ISP instead of having/maintaining own server</li>
 	<li>Minimal use of javascript for maximum compatibility with all web-browsers and web enabled devices. Some small amounts used to improve error-trapping and user interactivity.</li>
@@ -13,6 +14,7 @@
 	<li>The underlying code of the system is written in a way so as to maximise its readability for those new to PHP coding. The idea being that business users will be able to administer and adapt the system to exactly suit their needs.</li>
 </ul>
 <ul>
+	<li><h1>Security</h1></li>
 	<li>Users can be defined with access to only certain options using a role based model</li>
 	<li>Options applicable to certain roles can be graphically configured and users defined as fulfilling a given role.</li>
 	<li>Incorrect entry of password (more than 3 times) blocks the account until reset by the System Administrator. This prevents password crackers from breaking the security.</li>
@@ -23,6 +25,7 @@
 	<li>All inputs are sanitised to prevent SQL injections and cross site scripting.</li>
 </ul>
 <ul>
+	<li><h1>Sales Ordering</h1></li>
 	<li>Quotations can be entered and printed as quotations then changed to an order if the customer accepts without re-entering</li>
 	<li>Customer orders can be entered and maintained and referenced back to the customer�s order number.</li>
 	<li>The cumulative quantity on order for a stock item shows as a demand in stock status inquiries.</li>
@@ -33,7 +36,7 @@
 	<li>Differences from the order are logged when dispatches are not the same as the ordered quantities for reporting delivery in full on time.</li>
 	<li>Pricing automatically returned based on the customer sales type, branch and currency.</li>
 	<li>Pricing can be set to be effective from specific dates and to finish on a final date</li>
-	li>Pricing is by currency</li>
+	<li>Pricing is by currency</li>
 	<li>Any number of price lists can be maintained. Customers are defined to get their pricing from a specific price list. However, special prices can be defined as an exception for a given customer or even a particular branch of a customer</li>
 	<li>Quantity break discounts across a range of products are automatically calculated based on a discount matrix.</li>
 	<li>Packing slips printable on laser or pre-printed stationery.</li>
@@ -45,6 +48,7 @@
 	<li>Delivery In Full On Time reporting</li>
 </uL>
 <ul>
+	<li><h1>Taxation</h1></li>
 	<li>Very flexible taxation options suitable for most countries</li>
 	<li>Tax rates dependent on the type of product - using tax categories</li>
 	<li>Tax rates dependent on the location of the warehouse dispatched from</li>
@@ -53,6 +57,7 @@
 	<li>Each tax posted to different user-definable general ledger accounts - if linked to AR/AP</li>
 </ul>
 <ul>
+	<li><h1>Accounts Receivable</h1></li>
 	<li>Overdues inquiry that takes into account delivery days to the customer�s branch and the actual (user definable) payment terms applicable to the customer, supported by detailed inquiry of actual invoices overdue.</li>
 	<li>Full on-screen inquiry on a customer\'s account, complete with invoice details and narrative which appeared on the invoice. Drill down to source document � invoice or credit note.</li>
 	<li>Invoice can be emailed to customers together with pdf attachments dependent on items invoices eg. warranty, datasheets, instructions, manuals etc.</li>
@@ -75,6 +80,7 @@
 	<li>Option to produce integrated google maps of customer locations (and suppliers)</li>
 </ul>
 <ul>
+	<li><h1>Stock control</h1></li>
 	<li>Unlimited number of warehouses (stocking locations), stock quantities are maintained for an unlimited number of locations.</li>
 	<li>Selling prices for a stock item can be set for each sales type defined in any (and all) currency (ies) allowing great pricing flexibility. Pricing can also be set specific to an individual customer account or even a specific customer branch.</li>
 	<li>Automatic back ordering. Sales orders yet to be delivered can be automatically back ordered at the time of invoicing or the balance of the order canceled as appropriate.</li>
@@ -98,6 +104,7 @@
 	<li>Weighted Average (automatic) or standard (manually maintained) costing</li>
 </ul>
 <ul>
+	<li><h1>Purchase Ordering</h1></li>
 	<li>Purchase orders and suppliers can be in any currency.</li>
 	<li>Supplier item descriptions and pricing (in the currency of the supplier) for purchased items can be maintained. Purchase orders automatically use these prices. The same item can be purchased from many different suppliers.</li>
 	<li>Quantities on order show on inventory status inquiries by inventory location to receive into. Quantities on order also show on planning reports.</li>
@@ -112,6 +119,7 @@
 	<li>Supplier units and purchasing prices can be maintained with a preferred supplier for each item. Orders can be entered referring to the supplier\'s item code and description and in the suppliers unit, converting to the business units for all internal purposes.</li>
 </ul>
 <ul>
+	<li><h1>Accounts Payable</h1></li>
 	<li>Suppliers can be defined in any currency.</li>
 	<li>Invoices can be entered against goods received with a user definable allowance for over invoicing. Thus ensuring payment is only made for goods received.</li>
 	<li>Invoices can be entered as a cost of a shipment for apportionment between the items on the shipment.</li>
@@ -127,6 +135,7 @@
 	<li>A petty cash expense reimbursement module is available for sales people to enter their claims.</li>
 </ul>
 <ul>
+	<li><h1>Cash Book</h1></li>
 	<li>As many bank accounts as required can be set up details and account number can be held against the bank account definition.</li>
 	<li>Bank accounts can be any currency and payments/receipts can be paid in any currency from any bank account.</li>
 	<li>Transfers between accounts are automatically detected by entry of payment to another bank account or receipt.</li>
@@ -135,6 +144,7 @@
 	<li>Calculation and posting to GL of unrealised exchange differences in foreign currency bank account balances</li>
 </ul>
 <ul>
+	<li><h1>General Ledger</h1></li>
 	<li>Automatically maintained periods, reporting over any range of periods with no rollover procedure at period end.</li>
 	<li>Balance Sheet and Profit and Loss Statements</li>
 	<li>Reporting against budget</li>
@@ -148,6 +158,7 @@
 	<li>Posting to prior periods can be disabled based on transaction date to prevent prior periods being changed.</li>
 </ul>
 <ul>
+	<li><h1>Manufacturing</h1></li>
 	<li>Multi-level bill of materials - with error trapping to prevent recursive BOMs.</li>
 	<li>Phantom bills - automatically explode into components when a parent work order is created.</li>
 	<li>Automatic cost rolls ups on change of BOM or component costs.</li>
@@ -161,11 +172,13 @@
 	<li>Full MRP - Material Requirements Planning with master production schedule/forecast maintenance and creation facilities. Fast full recursive calculation of MRP - (note that capacity requirements planning and MRP II functionality is NOT currently available in KwaMoja).</li>
 </ul>
 <ul>
+	<li><h1>Contract Costing</h1></li>
 	<li>Job costings can be created for a selected customer using stock and other requirements. These can be converted into a quotation and if the quotation is accepted a sales order/work order.</li>
 	<li>Issuing stock to the job is handled like any other work order until the contract/job is invoiced</li>
 	<li>Full report on contract/job variances from quoted costs</li>
 </ul>
 <ul>
+	<li><h1>Asset Manager</h1></li>
 	<li>Asset additions through purchase orders or supplier invoice entry directly.</li>
 	<li>Disposals of fixed assets through normal sales order entry - asset to be disposed can be selected for sale.</li>
 	<li>Fixed Asset register covers a period showing additions, depreciation and disposals for that period.</li>
