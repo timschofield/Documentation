@@ -16,7 +16,9 @@
 <ul>
 	<li><h1>Security</h1></li>
 	<li>Users can be defined with access to only certain options using a role based model</li>
-	<li>Options applicable to certain roles can be graphically configured and users defined as fulfilling a given role.</li>
+	<li>All scripts are defined with a security token which can be configured for each organisation</li>
+	<li>All user roles can be allotted specified tokens, and users with that role can only see scripts with that security token</li>
+	<li>All users are allotted a role for the job which they do in the organisation</li>
 	<li>Incorrect entry of password (more than 3 times) blocks the account until reset by the System Administrator. This prevents password crackers from breaking the security.</li>
 	<li>Pages can be encrypted using SSL and KwaMoja can be configured to only display pages using SSL to ensure that all information passing over the internet is encrypted.</li>
 	<li>Users can be defined to see only certain modules on the main menu - so menu options that they will not have access to are not even displayed on screen.</li>
